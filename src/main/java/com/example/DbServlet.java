@@ -68,7 +68,7 @@ public class DbServlet extends HttpServlet {
                     ps.setTimestamp(2, new Timestamp(System.currentTimeMillis()));
                     ps.executeUpdate();
                 } catch (SQLException insertEx) {
-                    // If ID collides (rare), just continue; demo isn't about keys
+                    // If ID collides (rare), just continue;
                 }
 
                 long count = 0;
