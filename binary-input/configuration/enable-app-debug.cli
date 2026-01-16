@@ -1,0 +1,7 @@
+# Enable DEBUG logging for the demo app
+/subsystem=logging/logger=com.example:add(level=DEBUG)
+
+:whoami
+
+# Reload the server to apply changes
+reload

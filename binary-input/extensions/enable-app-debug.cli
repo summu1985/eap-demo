@@ -1,0 +1,5 @@
+if (outcome != success) of /subsystem=logging/logger=com.example:read-resource
+  /subsystem=logging/logger=com.example:add(level=DEBUG)
+else
+  /subsystem=logging/logger=com.example:write-attribute(name=level,value=DEBUG)
+end-if
