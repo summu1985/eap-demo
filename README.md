@@ -16,7 +16,7 @@ The demo uses **JBoss EAP OpenShift S2I binary builds** to assemble a runtime im
 https://youtu.be/vMosdVSpFGA
 
 📢 **LinkedIn carousel post:**  
-
+https://www.linkedin.com/posts/sumit-mukherjee_deploying-legacy-jboss-eap-7x-applications-activity-7418670354799288320-4agX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAQV9QEB8h22RRiFFzDXpIRDYGpKDD8_V7Q
 
 ---
 
