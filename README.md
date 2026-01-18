@@ -59,7 +59,7 @@ binary-input/
 
 ## Branches Explained
 
-### `full-config`
+### `main`
 Use this when:
 - Existing EAP configuration is heavily customized
 - You want the fastest path to containerization
@@ -121,8 +121,8 @@ oc set env deploy/eap-ds-demo \
 DB_SERVICE_PREFIX_MAPPING=app-postgresql=APP \
 APP_JNDI=java:jboss/datasources/AppDS \
 APP_URL='jdbc:postgresql://postgresql:5432/demo?sslmode=disable' \
-APP_USERNAME=demo \
-APP_PASSWORD=demo \
+APP_USERNAME=<<username>> \
+APP_PASSWORD=<<password>> \
 APP_NONXA=true
 ```
 
@@ -140,8 +140,8 @@ oc set env deploy/eap-ds-demo \
 DB_SERVICE_PREFIX_MAPPING=app-mysql=APP \
 APP_JNDI=java:jboss/datasources/AppDS \
 APP_URL='jdbc:mysql://mysql:3306/demo' \
-APP_USERNAME=demo \
-APP_PASSWORD=demo \
+APP_USERNAME=<<username> \
+APP_PASSWORD=<<password>> \
 APP_NONXA=true
 ```
 
